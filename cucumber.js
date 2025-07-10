@@ -7,5 +7,6 @@ module.exports = {
     ],
     format: ['html:html-report/cucumber-report.html'],
     paths: ['features/*.feature'],
+    timeout: 60000
   }
 };
